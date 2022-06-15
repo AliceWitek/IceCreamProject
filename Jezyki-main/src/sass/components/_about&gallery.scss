@@ -1,0 +1,519 @@
+@media screen and (max-width: 767px) {
+  .container {
+    display: block;
+  }
+  .how-its-made {
+    background-image: url(../images/mobile-about/background_milk.png),
+      url(../images/mobile-about/background_milk@2x.png);
+    background-size: 100%;
+    background-position-y: 47%;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    padding-top: 125px;
+    padding-bottom: 100px;
+    margin: 0 auto;
+    background-color: #fff5f6;
+  
+    &__label {
+      margin: 0;
+      margin-bottom: 15px;
+      font-family: 'Titan One', cursive;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 1.17;
+      text-align: center;
+      text-transform: uppercase;
+      color: $mainLabelColor;
+    }
+      &__title {
+        margin: auto;
+        margin-bottom: 26px;
+        font-family: 'Titan One', cursive;
+        font-weight: 400;
+        font-size: 34px;
+        line-height: 1.15;
+        text-align: center;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        color: $mainTextColor;
+        max-width: 200px;
+      }
+    }
+  
+
+  .milk__btn {
+    display: inline-block;
+    margin-bottom: 39px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-right: 37px;
+    padding-left: 37px;
+    min-width: 176px;
+    background: $secondTextColor;
+    border-radius: 22px;
+    border: 0;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.28;
+    color: $mainTextColor;
+
+    &:hover,
+    &:focus {
+      background-color: #ecebeb;
+    }
+  }
+  .milk__btn::after {
+      content: '';
+      background-image: url("data:image/svg+xml,%3Csvg width='8' height='10' viewBox='0 0 8 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.61633 1L6.04401 5L1.61633 9' stroke='%23D41443' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+      background-repeat: no-repeat;
+      display: inline-block;
+      width: 8px;
+      height: 10px;
+      position: relative;
+      left: 15px;
+  }
+
+  .main-image {
+    width: 280px;
+    height: 279px;
+    display: block;
+    margin: auto;
+  }
+  .milk__description-first {
+    margin: 0;
+    margin-bottom: 32px;
+    width: 220px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.58;
+    color: $mainPColor;
+  }
+  .milk__description-second {
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.58;
+    color: $secondPColor;
+    width: 220px;
+  }
+  .pic {
+    margin-top: 20px;
+    margin-bottom: 21px;
+  }
+  .milk__description {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .cards__number {
+    margin: 0;
+    margin-bottom: 21px;
+    font-family: 'Titan One', cursive;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.14;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: $mainTextColor;
+    padding-top: 16px;
+  }
+  .cards__img::before {
+    content: url(../images/mobile-about/icon1.png);
+  }
+  .cards__img-second::before {
+    content: url(../images/mobile-about/icon2.png);
+  }
+  .cards__img-third::before {
+    content: url(../images/mobile-about/icon3.png);
+  }
+
+  .cards {
+    padding-top: 0;
+    padding-bottom: 0;
+    display: flex;
+
+    &__text {
+      margin: 0;
+      width: 230px;
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 1.67;
+      color: $mainPColor;
+    }
+  }
+
+  .item-pic {
+    margin-bottom: 16px;
+  }
+
+  .cards__img {
+    margin-bottom: 38px;
+
+    &-second {
+      margin-bottom: 38px;
+    }
+  }
+  .cards__list {
+    display: block;
+    list-style: none;
+  }
+  .gallery__img {
+    width: 100%;
+  }
+  .contacts-image {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .container {
+    display: block;
+  }
+  .how-its-made {
+    padding-top: 130px;
+    padding-bottom: 140px;
+    background-color: #fff5f6;
+
+    &__label {
+      margin: 0;
+      margin-bottom: 16px;
+      font-family: 'Titan One', cursive;
+      font-weight: 400;
+      font-size: 26px;
+      line-height: 1.15;
+      text-align: center;
+      text-transform: uppercase;
+      color: $mainLabelColor;
+    }
+      &__title {
+        margin: 0;
+        margin-bottom: 50px;
+        font-family: 'Titan One', cursive;
+        font-weight: 400;
+        font-size: 34px;
+        line-height: 1.14;
+        text-align: center;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        color: $mainTextColor;
+      }
+    }
+  
+  .milk__btn {
+    display: inline-block;
+    margin-bottom: 66px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-right: 37px;
+    padding-left: 37px;
+    min-width: 176px;
+    background: $secondTextColor;
+    border-radius: 22px;
+    border: 0;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.28;
+    color: $mainTextColor;
+
+    &:hover,
+    &:focus {
+      background-color: #ecebeb;
+    }
+  }
+
+  .milk__btn::after {
+      content: '';
+      background-image: url("data:image/svg+xml,%3Csvg width='8' height='10' viewBox='0 0 8 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.61633 1L6.04401 5L1.61633 9' stroke='%23D41443' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+      background-repeat: no-repeat;
+      display: inline-block;
+      width: 8px;
+      height: 10px;
+      position: relative;
+      left: 15px;
+  }
+  .milk__description-first {
+    margin: 0;
+    margin-bottom: 31px;
+    width: 330px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.78;
+    color: $mainPColor;
+  }
+  .milk__description-second {
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.78;
+    letter-spacing: 0.04em;
+    color: $secondPColor;
+    width: 340px;
+  }
+  .milk {
+    display: flex;
+    margin: auto;
+    width: max-content;
+
+    &__description {
+      margin: 0;
+      margin-top: 50px;
+
+      &__image {
+        margin: 0;
+        margin-right: 17px;
+      }
+    }
+  }
+  .pic {
+    margin-top: 18px;
+    margin-bottom: 61px;
+  }
+
+  .cards__img::before {
+    content: url(../images/tablet-about/icon1.png);
+  }
+  .cards__img-second::before {
+    content: url(../images/tablet-about/icon2.png);
+  }
+  .cards__img-third::before {
+    content: url(../images/tablet-about/icon3.png);
+  }
+  .cards__number {
+    margin: 0;
+    margin-bottom: 13px;
+    padding-top: 36px;
+    font-family: 'Titan One', cursive;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 1.14;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: $mainTextColor;
+  }
+  .cards__text {
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.71;
+    color: $mainPColor;
+  }
+  .cards__list {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-evenly;
+  
+  }
+  .item-pic {
+    margin-bottom: 36px;
+  }
+  .cards-set {
+    display: flex;
+    margin: 0 auto;
+    max-width: max-content;
+  }
+  .cards__img {
+    margin-right: 60px;
+  
+    &-second{
+      margin-right: 60px;
+    }
+    }
+
+  .contacts-image {
+    width: 100%;
+  }
+  .main-image {
+    width: 340px;
+    height: 339px;
+    margin-right: 17px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    display: block;
+  }
+  .how-its-made {
+    background-image: url(../images/desktop-about/background_milk.png),
+      url(../images/desktop-about/background_milk@2x.png);
+    background-repeat: no-repeat;
+    background-position-y: 50.1%;
+    background-position-x: center;
+    background-size: 100%;
+    padding-top: 125px;
+    padding-bottom: 140px;
+    background-color: #fff5f6;
+
+    &__label {
+      margin: 0;
+      margin-bottom: 15px;
+      font-family: 'Titan One', cursive;
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 1.13;
+      text-align: center;
+      text-transform: uppercase;
+      color: $mainLabelColor;
+    }
+      &__title {
+        margin: 0;
+        margin-bottom: 100px;
+        font-family: 'Titan One', cursive;
+        font-weight: 400;
+        font-size: 58px;
+        line-height: 1.14;
+        text-align: center;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        color: $mainTextColor;
+      }
+    }
+  
+  .milk__btn {
+    display: inline-block;
+    margin-bottom: 146px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-right: 37px;
+    padding-left: 37px;
+    min-width: 176px;
+    background: $secondTextColor;
+    border-radius: 22px;
+    border: 0;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.28;
+    text-align: center;
+    color: $mainTextColor;
+
+    &:hover,
+    &:focus {
+      background-color: #ecebeb;
+    }
+  }
+  .milk__btn::after {
+      content: '';
+      background-image: url("data:image/svg+xml,%3Csvg width='8' height='10' viewBox='0 0 8 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.61633 1L6.04401 5L1.61633 9' stroke='%23D41443' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+      background-repeat: no-repeat;
+      display: inline-block;
+      width: 8px;
+      height: 10px;
+      position: relative;
+      left: 15px;
+  }
+
+  .milk__description {
+    margin-top: 50px;
+
+    &-first {
+      margin-bottom: 35px;
+      width: 463px;
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.75;
+      letter-spacing: 0.04em;
+      color: $mainPColor;
+    }
+      &-second {
+        font-family: 'DM Sans', sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.78;
+        letter-spacing: 0.04em;
+        color: $secondPColor;
+        width: 463px;
+      }
+    }
+  
+  .milk {
+    display: flex;
+    max-width: max-content;
+    margin: auto;
+
+    &__image {
+      display: flex;
+      margin-right: 74px;
+    }
+  }
+  .main__image {
+    margin: 0;
+    margin-right: 74px;
+  }
+  .pic {
+    margin-top: 37px;
+    margin-bottom: 45px;
+  }
+  .cards__img::before {
+    content: url(../images/desktop-about/icon1.png);
+  }
+  .cards__img-second::before {
+    content: url(../images/desktop-about/icon2.png);
+  }
+  .cards__img-third::before {
+    content: url(../images/desktop-about/icon3.png);
+  }
+  .cards__list {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+
+    
+
+    .cards__number {
+      margin: 0;
+      padding-top: 40px;
+      margin-bottom: 24px;
+      font-family: 'Titan One', cursive;
+      font-weight: 400;
+      font-size: 48px;
+      line-height: 1.14;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: $mainTextColor;
+    }
+
+      .cards__text {
+        margin: 0;
+        font-family: 'DM Sans', sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.75;
+        letter-spacing: 0.02em;
+        color: $mainPColor;
+      }
+    
+  
+
+  .cards-set {
+    display: flex;
+    margin: 0 auto;
+    max-width: max-content;
+  }
+  .cards__img {
+    margin-right: 30px;
+  &-second{
+    margin-right: 30px;
+   }
+  }
+  .contacts-image {
+    width: 100%;
+  }
+  .main-image {
+    width: 516px;
+    height: 516px;
+  }
+}

@@ -1,0 +1,194 @@
+.contacts__headline {
+  display: none;
+}
+
+.contacts__list-box {
+  height: 1321px;
+  display: flex;
+}
+.contacts__list-box{
+    background-color: #FFF5F6;
+}
+
+ .contacts__list{
+background-color:#FFF5F6
+ }
+
+.buttons__section {
+  width: 161.45px;
+  height: 98px;
+}
+
+.cafe{
+    background-color: $secondLabelColor;
+    max-width: 80px;
+}
+
+.foodtrack{
+    background-color:$thirdLabelColor;
+    max-width: 130px;
+}
+
+.cafe,
+.foodtrack {
+  color: $secondTextColor;
+  border-radius: 4px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.city{
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    font-style: normal;
+    color:$mainPColor;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.city-text{
+    color:$secondPColor;
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 12px;
+    font-style: normal;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+
+}
+
+.weekly{
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 12px;
+    color:$mainPColor;
+    font-style: normal;
+    margin-top: 25px;
+}
+
+.timetable{
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 12px;
+    font-style: normal;
+    color:$mainLabelColor;
+    margin-bottom: 10px;
+     flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.contacts__mail,
+.contacts__tel{
+    font-size: 12px;
+    font-family: DM Sans;
+    font-weight: 500;
+    font-style: normal;
+    color:$secondPColor;
+    text-decoration: none;
+    flex-wrap: wrap;
+    flex-direction: row;
+} 
+
+.cafe--chicago, .cafe--new-york, .foodtrack--los-angeles{
+display:grid;
+grid-template-rows: 3;
+box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+border-radius: 24px;
+height:427px;
+padding-bottom:20px;
+background-color:var($secondTextColor);
+
+width:220px;
+margin-bottom: 22px;
+}
+
+.locations{
+    color:$secondTextColor;
+    border-radius: 22px;
+    border-color: #D41342;
+    background-color: #D41342;
+    width: 161.45px;
+    height: 44px;
+   font-family: DM Sans;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 1.75;
+   display: flex;
+   align-items: center;
+   text-align: center;
+ 
+}
+
+.franchise{
+    color:$mainTextColor;
+    border-radius: 22px;
+    border-color: var($mainTextColor);
+    background-color: $secondTextColor;
+    width: 161px;
+    height: 44px;
+   font-family: DM Sans;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 1.75;
+   display: flex;
+   align-items: center;
+   text-align: center; 
+   margin-top: 10px;
+  
+}
+
+
+.buttons__section{
+background-color: #FFF5F6;
+margin-top: 54px;
+}
+
+.grid-1{
+    height:132px;
+    border-bottom-width:1px;
+    border-bottom-style: solid;
+    border-bottom-color:var($secondPColor);
+    display: flex;
+ 
+   
+}
+
+.grid-2{
+    height:146px;
+    border-bottom-width:1px;
+    border-bottom-style: solid;
+    border-bottom-color:var($secondPColor);
+    display: flex;
+    
+    
+}
+
+.grid-3{
+    height:61px;
+    margin-top: 40px;
+    margin-bottom: 43px;
+    display: flex;
+}
+.grid-1,.grid-2,.grid-3{
+    width:179px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 43px;
+    padding-bottom: 43px;
+    display: flex;
+    background-color:var($secondTextColor);
+     flex-wrap: wrap;
+    flex-direction: row;
+}
